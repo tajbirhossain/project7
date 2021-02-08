@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+#mainSection {
+    display: flex;
+}
+.leftBar {
+    background-color: #7777ff;
+    width: 227px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 610px;
+}
+.leftBar img {
+    width: 170px;
+    margin-top: 30px;
+}
+.menuLinks {
+    width: 170px;
+}
+.menuLinks ul li {
+    color: #fff;
+    list-style: none;
+    font-size: 19px;
+    margin: 15px 0px;
+    padding: 10px 0;
+    width: 100%;
+}
+#liFir {
+    border: transparent;
+    background-color: #f1f2f4;
+    color: #7777ff;
+    padding-right: 12px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.menuLinks ul li i {
+    margin-right: 7px;
+    margin-left: 10px;
+}
+.mainSide {
+    width: 100%;
+    background-color: #f1f2f4;
+}
+.headerCont {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+}
+.headerCont button {
+    width: 130px;
+    color: #fff;
+    background: #7777ff;
+    border: transparent;
+    border-radius: 25px 25px 25px 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    outline: none;
+}
+.headerCont button i {
+    font-size: 30px;
+}
+.contentWrapper {
+    display: flex;
+    margin-bottom: 20px;
+}
+.imgBx {
+    background: #7777ff;
+    width: 190px;
+    height: 250px;
+    margin-left: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imgBx .imgHolder {
+    width: 130px;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    object-fit: cover;
+    background: rgba(255, 255, 255, 0.171);
+}
+.imgBx img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.imgBx button {
+    width: 110px;
+    height: 30px;
+    margin-top: 20px;
+    background: transparent;
+    color: #fff;
+    border: 1.5px solid #fff;
+    border-radius: 25px;
+    outline: none;
+}
+.imgBx button i {
+    font-size: 18.5px;
+}
+.pricingOption {
+    display: flex;
+    background: #fff;
+    border-radius: 5px;
+    margin-left: 15px;
+    padding: 10px 0;
+}
+.pricingFirst {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+.pricingFirst span {
+    background: rgba(255, 0, 0, 0.137);
+    margin: 10px 0px;
+    width: 150px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(196, 26, 26);
+    height: 35px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pricingHead button {
+    width: 150px;
+    height: 35px;
+    border: 1.5px solid #7777ff;
+    color: #7777ff;
+    font-weight: 600;
+    outline: none;
+    border-radius: 25px;
+}
+.pricingHead {
+    margin: 0 0 15px 20px;
+}
+.pricingHead p {
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+.second span {
+    background: #ffa60048;
+    color: #ebc105;
+}
+.third span {
+    background: #5bdd0f49;
+    color: #3cc911;
+}
+.leftPricing {
+    display: flex;
+}
+.cardPricing {
+    width: 270px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #7777ff;
+    border-radius: 5px;
+}
+.cardPricing span {
+    width: 120px;
+    height: 120px;
+    border: .5px solid #fff;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.075);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 5px;
+}
+.cardPricing span h5 {
+    font-size: 15px;
+}
