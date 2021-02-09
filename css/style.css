@@ -9,6 +9,7 @@ body {
 }
 #mainSection {
     display: flex;
+    background: #f1f2f4;
 }
 .leftBar {
     background-color: #7777ff;
@@ -47,7 +48,6 @@ body {
 }
 .mainSide {
     width: 100%;
-    background-color: #f1f2f4;
 }
 .headerCont {
     display: flex;
